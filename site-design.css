@@ -1,0 +1,345 @@
+/* for all main-container pages */
+.main-container{
+    min-height:100%
+}
+/* for all paragraph pages */
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* for all pages with img class */
+img{
+    max-width: 100%;
+
+}
+ 
+/* tadao ando title edit */ 
+.main-title{
+    font-size: 19pt;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+
+/* navigation bar edits */
+}.nav-main{
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* individual nav bar */
+.nav-main-item{
+    text-transform: uppercase;   
+    font-size: 1.4rem;
+    font-style: sans-serif;
+    border:none;
+
+    display:inline-block;
+    padding:0.5rem 0.5rem;
+    margin:1rem;
+    color:black;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-main-item:hover, .nav-main-item:active, .nav-main-item:focus{
+    border:none;
+    background-color:rgb(174,14,54);
+    color:white; 
+    
+}
+
+/* Start of Bio Page  */
+
+/* biography text(bio Page) */
+.main-header{
+    display:grid;
+    grid-template-columns: 1fr;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-top: 25px;
+   
+    margin-bottom: 1rem;
+
+}
+
+/*(bio page) bio info */
+.main-paragraph{
+     
+    font-size:12.5pt;
+    text-align: start;
+    width: 95%;
+    max-width: 95%;
+    
+}
+
+/*(bio page) 2 photos */
+.main-photo1{
+    height: auto;
+    width:100%;
+   
+    
+}
+
+/*(bio page) grids for photo and bio info*/
+.paragraph-photo{
+    
+    margin: 3rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap:2rem;
+    background:linear-gradient(45deg,white, #b9b4ab);
+    
+    
+}
+
+/* start of home page */ 
+
+/* (home page)Tadao Ando name*/
+.home-title{
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -2rem;
+}
+/*Haiku in concrete(home page)*/
+.principles{
+    text-align: center;
+    font-size: 20pt;
+    font-style: sans-serif;
+ 
+}
+/* body home page */
+body{
+    text-align: center;
+}
+/*background photo(home page) */
+.photo-exhibit{
+    text-align:center;
+    font-size:25pt;
+    justify-content: center;
+    background:url("site-photos/tadao.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*exhibit info(home page)*/
+.Exhibit{
+    padding:165px; 
+}
+/*(home page) project name*/
+.project-parts{
+    margin-top: 60px;
+    font-size: 25pt;
+    margin-bottom:70px;
+    text-decoration:underline;
+    text-underline-offset: 3px;
+
+}
+/* house photo */
+.house-2{
+    
+    margin: 1rem;
+
+}
+/* langen photo */
+.langen{
+    
+    margin:1rem
+}
+
+.photos-with-text{
+    display:inline-block;
+    margin:auto;
+
+}
+/*(home page) project photos*/
+.photos-text{
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto; 
+    align-content: center;
+    
+}
+
+
+/*Project text(Home page) */
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:black; 
+    padding:0.5rem 0.5rem;
+    border:3px Solid black;
+
+
+    transition-property: background-color; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease-in-out;
+    margin:1rem auto;
+}
+/* nav (home page) */
+a:hover, a:focus, a:active{
+    border:3px Solid white;
+    background-color:rgb(174,14,54);
+    color:white;
+ 
+}
+/*(home page) project text */ 
+.text{
+    margin-top:5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+/* start of exhibiton page */ 
+
+/* (exhibition page) */
+.photo-exhibit2{
+    text-align:center;
+    font-size:25pt;
+    justify-content: center;
+    background:url("site-photos/tadao.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    margin-top:60px;
+
+}
+/*exhibit page details */
+.Exhibit2{
+    padding:155px; 
+}
+
+.exhibit-title{
+    font-family: 'Roboto', sans-serif;
+    font-size:16pt;
+    margin:1rem;
+}
+
+.text-decloration{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+/* House Page  */
+
+/*4x4 house page*/ 
+.house-title{
+    text-align: center;
+    font-size: 16pt;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Langen and House Page format */
+
+/* first two images*/
+.images{
+    display: inline-block;
+}
+
+/*grey background */
+.background{
+    width:auto;
+    margin:1.2rem auto;
+    background-color:#e5e5e5;
+    padding:1rem;
+    margin-bottom: 2rem;
+    margin-left:0.9rem;
+    margin-right:0.8rem;
+}
+/* project info */
+.proj-content{
+   
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    width: 65%;
+    text-align: start;
+    margin-bottom:70px;
+    
+}
+
+/*  3rd image */
+.image3-text3{
+   
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:1.5rem;
+    
+    box-sizing: border-box;
+
+}
+.image3{
+    width:100%;
+    height:auto;
+    margin-left:1.5rem;
+   
+    padding:2rem;
+
+}
+/* 1st quotes */
+.text3{
+    width:80%;
+    padding:2.5rem;
+    font-size:1.6rem;
+    font-style: italic;
+   
+
+}
+
+/*  2nd quotes */
+.image4-text4{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin:1.5rem;
+   
+   
+}
+
+.text4{
+    width:60%;
+    font-size: 1.6rem;
+    font-style:italic;
+    padding:2rem;
+}
+/* 4th image */
+.image4{
+    
+    width:100%;
+    height:auto;
+}
+
+/*(4x4 house Page) full bleed image */
+.exterior{
+    background:url("site-photos/exterior.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    margin-top:70px;
+   
+}
+
+/* (lagen Foundation Page) Full bleed  */ 
+.full-bleed{
+    background:url("site-photos/full-bleed.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    margin-top:70px; 
+}
+
